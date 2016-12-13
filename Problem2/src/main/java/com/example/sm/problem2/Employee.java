@@ -20,4 +20,15 @@ public class Employee extends Person implements Payment{
     }
 
     // need something here
+
+
+    @Override
+    public void increase() {
+        salary = salary + 10000;
+
+    }
+
+    public void decrease() {
+        salary = salary - 10000;
+    }
 }

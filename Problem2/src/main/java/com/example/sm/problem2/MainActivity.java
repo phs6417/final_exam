@@ -34,22 +34,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.btn_inc:
                 // need something here
+                //salary = salary + 10000;
+                Payment.increase();
                 break;
 
             case R.id.btn_dec:
                 // need something here
+                // salary = salary - 10000;
+                Payment.decrease();
                 break;
 
             case R.id.btn_store:
                 // need something here
+                // 추가 add호출
+                // 추가하려는 이름이 이미 있을경우 에러
+
+
                 break;
 
             case R.id.btn_modify:
                 // need something here
+                // 수정 add 호출
+                // 수정하려는 이름이 리스트에 없을 경우 에러
+
                 break;
 
             case R.id.btn_delete:
                 // need something here
+                // 삭제 delete 호출
+                // 삭제하려는 이름이 리스트에 없을 경우 에러
+
                 break;
         }
     }
