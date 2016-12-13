@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
         btn_getLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // 버튼 누르면 Selection이 LOCATION으로 바뀜
+                text_selectedType.setText("LOCATION");
+                // Value값 변경
 
             }
         });
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity /* implements Something1, So
         btn_getSensors.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //버튼 누르면 Selection이 Sensors 로 바뀜
+                text_selectedType.setText("Sensors");
+                //Value값 변경
 
             }
         });
